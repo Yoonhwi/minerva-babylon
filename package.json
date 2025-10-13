@@ -13,6 +13,7 @@
     "prepare": "husky"
   },
   "dependencies": {
+    "@babylonjs/core": "^8.31.0",
     "react": "^19.1.1",
     "react-dom": "^19.1.1"
   },
