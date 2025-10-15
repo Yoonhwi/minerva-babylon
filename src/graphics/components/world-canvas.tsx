@@ -1,6 +1,7 @@
 import { useEffect, useRef, useState } from "react";
-import { World } from "../core/world";
+
 import { WorldContext } from "../context/world-context";
+import { World } from "../core/world";
 
 export function WorldCanvas({ children }: React.PropsWithChildren) {
   const [world, setWorld] = useState<World | null>(null);

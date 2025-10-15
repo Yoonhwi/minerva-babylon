@@ -1,6 +1,7 @@
-import { useEffect } from "react";
-import { useWorld } from "../context/world-context";
 import { MeshBuilder } from "@babylonjs/core";
+import { useEffect } from "react";
+
+import { useWorld } from "../context/world-context";
 
 export function Box() {
   const world = useWorld();

@@ -7,6 +7,7 @@
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
     "preview": "vite preview",
     "format": "prettier --write .",
     "commit": "cz",
@@ -14,8 +15,12 @@
   },
   "dependencies": {
     "@babylonjs/core": "^8.31.0",
+    "@tailwindcss/vite": "^4.1.14",
+    "eslint-plugin-simple-import-sort": "^12.1.1",
+    "eslint-plugin-unused-imports": "^4.2.0",
     "react": "^19.1.1",
-    "react-dom": "^19.1.1"
+    "react-dom": "^19.1.1",
+    "tailwindcss": "^4.1.14"
   },
   "devDependencies": {
     "@commitlint/cli": "^20.1.0",
