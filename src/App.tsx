@@ -1,13 +1,16 @@
 import "./index.css";
 
+import { Layout } from "./components/layout/layout";
 import { Box } from "./graphics/components/box";
 import { WorldCanvas } from "./graphics/components/world-canvas";
 
 function App() {
   return (
-    <WorldCanvas>
-      <Box />
-    </WorldCanvas>
+    <Layout>
+      <WorldCanvas>
+        <Box />
+      </WorldCanvas>
+    </Layout>
   );
 }
 
